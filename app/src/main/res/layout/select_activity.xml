@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/game1"
+                android:layout_marginBottom="10dp"
+                android:padding="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="OnActionButtonClick"
+                android:src="@drawable/chip" />
+
+            <ImageButton
+                android:id="@+id/game2"
+                android:layout_marginBottom="10dp"
+                android:padding="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="OnActionButtonClick"
+                android:src="@drawable/dice" />
+
+            <ImageButton
+                android:id="@+id/game3"
+                android:layout_marginBottom="10dp"
+                android:padding="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="OnActionButtonClick"
+                android:src="@drawable/football" />
+
+            <ImageButton
+                android:id="@+id/game4"
+                android:layout_marginBottom="10dp"
+                android:padding="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="OnActionButtonClick"
+                android:src="@drawable/motorcycle" />
+
+            <ImageButton
+                android:id="@+id/game5"
+                android:layout_marginBottom="10dp"
+                android:padding="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="OnActionButtonClick"
+                android:src="@drawable/sprint" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
